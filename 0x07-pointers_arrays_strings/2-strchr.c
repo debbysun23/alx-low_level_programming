@@ -3,11 +3,11 @@
  * _strchr - Entry point
  * @s: input
  * @c: input
- * Returm: Always 0 (Success)
+ * Return: always 0 (Success)
  */
 char *_strchr(char *s, char c)
 {
-	int i = 0;
+	int i;
 
 	for (; s[i] >= '\0'; i++)
 	{
